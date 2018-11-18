@@ -15,7 +15,7 @@ app.get('/hc', (req, res) => {
     res.end("OK");
 })
 
-app.get('/', async (req, res) => {
+app.get('/', (req, res) => {
 
     res.end(service_name+" - helloworld");
 
